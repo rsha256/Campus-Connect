@@ -35,10 +35,6 @@ $("#back").click(() => {
 	$(location).attr('href',"http://very.hardcoded.software/profile.html?user=" + getParameterByName('user'));	
 });
 
-$("#logout").click(() => {
-	$(location).attr('href',"http://very.hardcoded.software/");	
-});
-
 $(document).ready(() => {
 	var url = "api/user/get?user=" + getParameterByName('user');
 	$.getJSON(url, function(data) {	
