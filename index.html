@@ -3,10 +3,29 @@
     <head>
         <link rel="stylesheet" href="css/gradients.css" type="text/css" />
         <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/home.css" type="text/css" />
+        <link rel="stylesheet" href="css/materialize.css" type="text/css" />
+        <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
         <title>CampusConnect</title>
     </head>
 
-    <body>
-        <img src="images/cover.png" class="homelogo" />
+    <body class="main-background-gradient">
+        <div id="leftpane">
+            <img src="images/cover.png" id="homelogo" />
+            <p id="home-introtext">
+                Campus Connect puts you in touch with people who possess similar interests.
+                <br />
+            </p>
+        </div>
+        <div id="rightpane">
+            <form method="post">
+                <div class="input-field">
+                    <input name="first_name" id="first_name" class="validate" type="text">
+                    <label for="first_name" class="">First Name</label>
+                </div>
+            </form>
+        </div>
     </body>
+    <script src="js/materialize.min.js"></script> 
+    <script src="js/materialize.js"></script>
 </html>
