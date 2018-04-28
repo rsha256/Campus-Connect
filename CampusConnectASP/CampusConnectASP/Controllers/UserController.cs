@@ -34,7 +34,7 @@ namespace CampusConnect.Controllers
             User u = JsonConvert.DeserializeObject<User>(text);
             u.time = DateTime.Now;
 
-            User nu = context.Users.FirstOrDefault(us => us.name == u.name);
+            User nu = context.Users.FirstOrDefault(us => us.username == u.username);
             if (nu != null)
                 return Content("Username taken");
 
@@ -67,6 +67,8 @@ namespace CampusConnect.Controllers
                 nu.name = u.name;
             if (u.tags != null)
                 nu.tags = u.tags;
+            if (u.email != null)
+                nu.email = u.email;
 
             nu.time = DateTime.Now;
 
@@ -84,7 +86,7 @@ namespace CampusConnect.Controllers
             User nu = context.Users.FirstOrDefault(us => us.username == user);
             if (nu == null)
                 return Content("Username not found");
-
+            
             return Content(JsonConvert.SerializeObject(nu));
         }
 
@@ -99,18 +101,21 @@ namespace CampusConnect.Controllers
            
             string tList = Request.Query["tags"];
             string[] filterTags = tList.Split(",");
-
-            foreach (User usr in context.Users.Where(us => us.username != user))
+            List<User> matchingUsers = new List<User>();          
+            
+            foreach (User usr in context.Users.Where(us => us.username != user && us.campus == nu.campus))
             {
                 string[] tags = usr.tags.Split(",");
                 foreach (string tag in tags)
                 {
                     if (filterTags.Contains(tag))
-                        return Content("User '" + usr.name + "' returned '" + tag + "'");
+                        matchingUsers.Add(usr);
                 }
             }
+            if (matchingUsers.Count == 0)
+                return Content("No users found.");
 
-            return Content("No users found.");
+            return Content(JsonConvert.SerializeObject(matchingUsers));
         }
     }
 }

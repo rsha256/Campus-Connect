@@ -10,11 +10,12 @@ namespace CampusConnect.Models
     {
         public User() { }
 
-        [Key]
-        public string username { get; set; }
+        [Key] public string username { get; set; }
+
         public string name { get; set; }
         public string campus { get; set; }
         public string tags { get; set; }
+        public string email { get; set; }
 
         public DateTime time { get; set; }
     }
