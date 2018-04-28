@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/gradients.css" type="text/css" />
         <link rel="stylesheet" href="css/main.css" type="text/css" />
         <link rel="stylesheet" href="css/home.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/materialize.css" type="text/css" />
         <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
         <title>CampusConnect</title>
@@ -18,21 +19,21 @@
                 <br />
             </h1>
             <p>
-                Connecting you with similar people nearby
+                <i class="material-icons" style="font-size: 2em">face</i> Find similar people <br />
+                <i class="material-icons" style="font-size: 2em">language</i> Create valuable connections <br />
             </p>
         </div>
         <div id="rightpane">
-            <form method="post">
+            <form method="get" action="http://very.hardcoded.software/user/get">
                 <h2>Sign In</h2>
+                <br>
                 <div class="input-field">
-                    <input name="first_name" id="first_name" class="validate" type="text">
-                    <label for="first_name" class="inputlabel">First Name</label>
+                    <input name="user" id="user" class="validate" type="text">
+                    <label for="user" class="inputlabel">Username</label>
                 </div>
-
-                <div class="input-field">
-                    <input name="password" id="password" class="validate" type="text">
-                    <label for="password" class="inputlabel">Password</label>
-                </div>
+                <button class="btn waves-effect waves-light" style="background-color: #362815; color: goldenrod" type="submit">Submit
+                    <i class="material-icons right">send</i>
+                </button>
             </form>
         </div>
     </body>
