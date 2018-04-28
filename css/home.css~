@@ -1,3 +1,36 @@
-img.homelogo {
-    
+@import url('./fonts.css');
+
+#homelogo {
+    display: block;
+    height: 15vh;
+}
+
+#leftpane {
+    position: absolute;
+    height: 80vh;
+    width: 80vh;
+    display: block;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+#rightpane {
+    position: absolute;
+    height: 80vh;
+    width: 80vh;
+    display: block;
+    margin-left: 50vw;
+    margin-top: 10vh;
+}
+
+#home-introbold {
+    font-family: Sans;
+    color: #d3a861;
+    font-size: 2em;
+}
+
+#home-introtext {
+    font-family: Serif;
+    font-size: 1.5em;
+    color: #d3a861;
 }

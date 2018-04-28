@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="gradient-grey-gold">
     <head>
+        <script src="js/materialize.min.js"></script> 
+        <script src="js/materialize.js"></script>
         <link rel="stylesheet" href="css/gradients.css" type="text/css" />
         <link rel="stylesheet" href="css/main.css" type="text/css" />
         <link rel="stylesheet" href="css/home.css" type="text/css" />
@@ -11,21 +13,27 @@
 
     <body class="main-background-gradient">
         <div id="leftpane">
-            <img src="images/cover.png" id="homelogo" />
-            <p id="home-introtext">
-                Campus Connect puts you in touch with people who possess similar interests.
+            <h1>
+                Campus Connect
                 <br />
+            </h1>
+            <p>
+                Connecting you with similar people nearby
             </p>
         </div>
         <div id="rightpane">
             <form method="post">
+                <h2>Sign In</h2>
                 <div class="input-field">
                     <input name="first_name" id="first_name" class="validate" type="text">
-                    <label for="first_name" class="">First Name</label>
+                    <label for="first_name" class="inputlabel">First Name</label>
+                </div>
+
+                <div class="input-field">
+                    <input name="password" id="password" class="validate" type="text">
+                    <label for="password" class="inputlabel">Password</label>
                 </div>
             </form>
         </div>
     </body>
-    <script src="js/materialize.min.js"></script> 
-    <script src="js/materialize.js"></script>
 </html>
