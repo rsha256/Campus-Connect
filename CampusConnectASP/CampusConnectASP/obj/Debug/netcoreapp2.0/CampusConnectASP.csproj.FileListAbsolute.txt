@@ -1,0 +1,13 @@
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnectASP.deps.json
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnectASP.runtimeconfig.json
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnectASP.runtimeconfig.dev.json
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnectASP.dll
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\obj\Debug\netcoreapp2.0\CampusConnectASP.csprojResolveAssemblyReference.cache
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\obj\Debug\netcoreapp2.0\CampusConnectASP.csproj.CoreCompileInputs.cache
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\obj\Debug\netcoreapp2.0\CampusConnectASP.AssemblyInfoInputs.cache
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\obj\Debug\netcoreapp2.0\CampusConnectASP.AssemblyInfo.cs
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnect.deps.json
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnect.runtimeconfig.json
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnect.runtimeconfig.dev.json
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\bin\Debug\netcoreapp2.0\CampusConnect.dll
+C:\Users\tstites\Desktop\HackCCM\CampusConnectASP\CampusConnectASP\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
