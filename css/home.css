@@ -6,6 +6,7 @@
 }
 
 #leftpane {
+    position: absolute;
     height: 80vh;
     width: 80vh;
     display: block;
@@ -14,10 +15,11 @@
 }
 
 #rightpane {
+    position: absolute;
     height: 80vh;
     width: 80vh;
     display: block;
-    margin-left: 5vw;
+    margin-left: 50vw;
     margin-top: 10vh;
 }
 
