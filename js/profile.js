@@ -13,11 +13,11 @@ $(document).ready(() => {
 	var url = "api/user/get?user=" + getParameterByName('user');
 	console.log(url);
 	$.getJSON(url, function(data) {	
-		console.log(data);
-		$("#name").text(data.name);
-		$("#campus").text(data.campus);
-		$("#email").text(data.email);
-		$("#tags").text(data.tags);
+            console.log(data);
+            $("#name").text(data.name);
+            $("#campus").text(data.campus);
+            $("#email").text(data.email);
+	    $("#tags").text(data.tags);
     });
 });
 

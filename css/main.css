@@ -5,7 +5,11 @@ html {
 
 .popout {
     background-color: #362815;
-    color: goldenrod
+    color: goldenrod;
+    border-radius: 1em;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
 }
 
 input:focus {
@@ -38,4 +42,25 @@ input:focus {
     display: block;
     margin-left: 50vw;
     margin-top: 10vh;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 5em;
+}
+
+h2 {
+    padding-top: 1vh;
+    color: goldenrod;
+    font-size: 4em;
+}
+
+h3 {
+    color: goldenrod;
+    font-size: 2em;
+}
+
+p {
+    color: goldenrod;
+    font-size: 2em;
 }
