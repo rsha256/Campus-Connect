@@ -32,7 +32,7 @@ $("#tags").on('input', () => {
 });
 
 $("#back").click(() => {
-	$(location).attr('href',"http://very.hardcoded.software/profile.html?user=" + getParameterByName('user'));	
+	$(location).attr('href',"http://very.hardcoded.software");	
 });
 
 $(document).ready(() => {

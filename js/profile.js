@@ -9,7 +9,6 @@ function getParameterByName(name, url) {
 }
 
 $(document).ready(() => {
-	console.log("ok")
 	var url = "api/user/get?user=" + getParameterByName('user');
 	console.log(url);
 	$.getJSON(url, function(data) {	
@@ -24,6 +23,11 @@ $(document).ready(() => {
 $("#submit").click(() => {
 	$(location).attr('href',"http://very.hardcoded.software/edit.html?user=" + getParameterByName('user'));	
 });
+
+$("#find").click(() => {
+	$(location).attr('href',"http://very.hardcoded.software/query.html?user=" + getParameterByName('user'));	
+});
+
 
 $("#logout").click(() => {
 	$(location).attr('href',"http://very.hardcoded.software/");	
