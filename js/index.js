@@ -1,10 +1,7 @@
 $("#submit").click(() => {
-	var url = "/user/get";
-	
-	$.getJSON(url, {
-		data: $("#user").val()
-	})
-    .done(data => {	
-		alert(data);
-    });
+	$(location).attr('href',"http://very.hardcoded.software/profile.html?user=" + $("#user").val());	
+});
+
+$("#signup").click(() => {
+	$(location).attr('href',"http://very.hardcoded.software/signup.html");	
 });

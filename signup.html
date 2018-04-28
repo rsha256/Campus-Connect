@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="gradient-grey-gold">
+    <head>
+        <script src="js/materialize.min.js"></script> 
+        <script src="js/materialize.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/gradients.css" type="text/css" />
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/home.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/materialize.css" type="text/css" />
+        <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
+        <title>CampusConnect</title>
+    </head>
+
+    <body class="main-background-gradient">
+        <div id="leftpane">
+            <h1>
+                Campus Connect
+                <br />
+            </h1>
+            <p>
+                <i class="material-icons" style="font-size: 2em">face</i> Meet similar people <br/>
+                <i class="material-icons" style="font-size: 2em">grid_on</i> Expand your grid <br/>
+                <i class="material-icons" style="font-size: 2em">group_add</i> Foster Mutual Improvement <br/>
+
+            </p>
+			<button class="btn btn-large waves-effect waves-light" style="background-color: #362815; color: goldenrod" id="logout" type="profile">Go Back
+				<i class="material-icons right">send</i>
+			</button>
+        </div>
+        <div id="rightpane">
+                <h2>Edit Profile</h2>
+                <br />
+                <div>
+					<div class="input-field">
+						<input name="user" id="user" class="validate" type="text">
+						<label for="user" class="inputlabel">Username</label>
+					</div>
+						
+					<div class="input-field">
+						<input name="name" id="name" class="validate" type="text">
+						<label for="name" class="inputlabel">Full Name</label>
+					</div>
+						
+					<div class="input-field">
+						<input name="campus" id="campus" class="validate" type="text">
+						<label for="campus" class="inputlabel">Campus</label>
+					</div>
+						
+					<div class="input-field">
+						<input name="email" id="email" class="validate" type="text">
+						<label for="email" class="inputlabel">E-Mail</label>
+					</div>
+						
+					<div class="input-field">
+						<input name="tags" id="tags" class="validate" type="text">
+						<label for="tags" class="inputlabel">Tags</label>
+					</div>
+					
+					<button class="btn waves-effect waves-light" style="background-color: #362815; color: goldenrod" id="submit" type="submit">Sign Up
+						<i class="material-icons right">send</i>
+					</button>
+                </div>
+        </div>
+        <script src="js/signup.js"></script>
+    </body>
+</html>

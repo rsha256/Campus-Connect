@@ -3,6 +3,7 @@
     <head>
         <script src="js/materialize.min.js"></script> 
         <script src="js/materialize.js"></script>
+        <script src="js/jquery.min.js"></script>
         <link rel="stylesheet" href="css/gradients.css" type="text/css" />
         <link rel="stylesheet" href="css/main.css" type="text/css" />
         <link rel="stylesheet" href="css/home.css" type="text/css" />
@@ -20,15 +21,24 @@
             <p>
 
             </p>
+			<button class="btn btn-large waves-effect waves-light" style="background-color: #362815; color: goldenrod" id="submit" type="submit">Edit Profile
+				<i class="material-icons right">send</i>
+			</button>
+			
+			<button class="btn btn-large waves-effect waves-light" style="background-color: #362815; color: goldenrod" id="logout" type="profile">Log Out
+				<i class="material-icons right">send</i>
+			</button>
         </div>
         <div id="rightpane">
-                <h2>Your profile</h2>
+                <h2>Your Profile</h2>
+                <h4><span id="tags"></span></h4>
                 <br />
                 <div>
-                    <span>
-                        
-                    </span>
+                    <h3>Name: <span id="name"></span></h3>
+                    <h3>Campus: <span id="campus"></span></h3>
+                    <h3>E-Mail: <span id="email"></span></h3>
                 </div>
         </div>
+        <script src="js/profile.js"></script>
     </body>
 </html>
