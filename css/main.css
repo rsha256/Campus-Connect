@@ -2,3 +2,40 @@ html {
     height: 100%;
     width: 100%;
 }
+
+.popout {
+    background-color: #362815;
+    color: goldenrod
+}
+
+input:focus {
+    border-bottom: 1px solid goldenrod !important;
+    box-shadow: 0 1px 0 0 goldenrod !important;
+    color: goldenrod;
+}
+
+.input-field input[type=text]:focus + label {
+    color: goldenrod;
+}
+
+.input-field label {
+    color: goldenrod;
+}
+
+#leftpane {
+    position: absolute;
+    height: 80vh;
+    width: 80vh;
+    display: block;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+#rightpane {
+    position: absolute;
+    height: 80vh;
+    width: 80vh;
+    display: block;
+    margin-left: 50vw;
+    margin-top: 10vh;
+}

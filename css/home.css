@@ -50,16 +50,3 @@ p {
     font-size: 1.5em;
     color: #d3a861;
 }
-input:focus {
-    border-bottom: 1px solid goldenrod !important;
-    box-shadow: 0 1px 0 0 goldenrod !important;
-    color: goldenrod;
-}
-
-.input-field input[type=text]:focus + label {
-    color: goldenrod;
-}
-
-.input-field label {
-    color: goldenrod;
-}
