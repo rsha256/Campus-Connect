@@ -20,6 +20,7 @@ $("#submit").click(() => {
 		tags: $("#tags").val()
 	}));
 	xhr.onload = function() {
+		console.log('xhl response received')
 		alert(this.responseText);
 	}	
 });
